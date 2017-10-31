@@ -26,7 +26,7 @@ public class DLList implements Serializable{
                 head.setPrevious(node);
                 node.setNext(head);
                 head = node;
-                return;
+                return; &
             }
             ListIterator i = this.iterator();
             while(i.hasNext()){
